@@ -10,7 +10,7 @@ class DatabaseHelper(context: Context) : SQLiteOpenHelper(context,
 ) {
     object DATABASE_KEYS{
         const val DATABASE_NAME = "pesquisaOpiniao.db"
-        const val DATABASE_VERSION = 2
+        const val DATABASE_VERSION = 1
 
         const val TABLE_ESTUDANTE_NAME = "estudante"
         const val COLUMN_ESTUDANTE_PRONTUARIO = "prontuario"
